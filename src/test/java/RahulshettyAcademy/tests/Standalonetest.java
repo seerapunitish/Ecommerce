@@ -73,7 +73,8 @@ public class Standalonetest {
 
 		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
 		driver.close();
-
+		driver.close();
+		driver.close();
 	}
 
 
